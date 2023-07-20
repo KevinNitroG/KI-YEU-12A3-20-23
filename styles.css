@@ -1,0 +1,53 @@
+body {
+  font-family: "Google Sans", sans-serif; /* Change the default font to Google Sans */
+  margin: 0;
+  padding: 0;
+  background-color: #222; /* Set default background color to dark */
+  color: #fff; /* Set default text color to white */
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  padding: 20px;
+  font-family: "Futura", sans-serif; /* Change the font for the header to Futura */
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* Center the spaces horizontally */
+  align-items: center; /* Center the spaces vertically */
+}
+
+.space {
+  text-align: center;
+  margin: 0 10px; /* Add some space between the spaces */
+}
+
+.space h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
