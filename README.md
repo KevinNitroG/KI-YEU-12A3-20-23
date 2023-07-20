@@ -1,9 +1,5 @@
-Github page để forward sang google sheet =)) bủh bủh
+# NHH A3 20-23 [![Static Badge](https://img.shields.io/badge/Website-NHH_A3_20_23-blue?style=for-the-badge)](https://kevinnitrog.github.io/NHH-A3-20-23/)
 
-http://ki-yeu-a3-20-23.kevinnitro.cluster.ws/
-
-hoặc là...
-:v
-removed
-
-https://kevinnitrog.github.io/KI-YEU-12A3-20-23/
+- Github Page để direct sang các site khác 😇
+- Kỉ liệm 🤫
+- Web gen bởi ChatGPT chứ tui không biết code brbr
