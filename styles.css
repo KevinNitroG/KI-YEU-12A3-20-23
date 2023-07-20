@@ -1,5 +1,5 @@
 body {
-  font-family: "Google Sans", sans-serif; /* Change the default font to Google Sans */
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #222; /* Set default background color to dark */
@@ -22,14 +22,24 @@ body {
 
 .content {
   padding: 20px;
+  text-align: center; /* Center the content */
+}
+
+.explanation {
+  margin-bottom: 20px; /* Add space between explanation and spaces */
+}
+
+.space-container {
   display: flex;
-  justify-content: center; /* Center the spaces horizontally */
-  align-items: center; /* Center the spaces vertically */
+  justify-content: center;
+  flex-wrap: wrap; /* Wrap the spaces if they don't fit in one line */
 }
 
 .space {
-  text-align: center;
-  margin: 0 10px; /* Add some space between the spaces */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px; /* Add space between spaces */
 }
 
 .space h2 {
@@ -38,16 +48,22 @@ body {
 }
 
 .button {
-  display: inline-block;
   background-color: #007bff;
   color: #fff;
-  padding: 10px 15px;
+  padding: 10px 20px; /* Add some space between text and button */
   border-radius: 5px;
   text-decoration: none;
   font-size: 16px;
   transition: background-color 0.3s ease;
+  margin-top: 5px; /* Add space between heading and button */
 }
 
 .button:hover {
   background-color: #0056b3;
+}
+
+/* Add custom CSS to display h2 elements in the same line */
+h2.inline {
+  display: inline;
+  margin-right: 10px; /* Add some spacing between the elements */
 }
